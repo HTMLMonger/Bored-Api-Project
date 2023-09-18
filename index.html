@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></head>
+    <body>
+    <div class="container">
+                <div class="mainTitle">
+                    Are You Bored???
+                </div>
+                <div class="break"></div>
+                <p>
+                    This site uses the BoredAPI to give you suggestions on what to do with your time.
+                </p>
+    </div>
+
+    <div class="container">
+        <div class="options">
+            <form action="./index.js">
+            <caption>How many friends?</caption>
+            <br>
+            <select class="opt" name="numPeople" id="numPeople">
+                <option value="1">One Friend</option>
+                <option value="2">Two Friends</option>
+                <option value="3">Three Friends</option>
+                <option value="4">Four Friends</option>
+            </select>
+            <hr class="rounded">
+            <caption>What type of activity would you like to do?</caption>
+            <br>
+            <select name="type" id="type">
+                <option value="education">Education</option>
+                <option value="recreational">Recreational</option>
+                <option value="social">Social</option>
+                <option value="diy">DIY</option>
+                <option value="charity">Charity</option>
+                <option value="cooking">Cooking</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="music">Music</option>
+                <option value="busywork">Busy Work</option>
+            </select>
+            <hr class="rounded">
+            <caption>Do you have money to spend?</caption>
+            <br>
+                <select name="type" id="type">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+                <button onclick="axiosTest()">Click Me</button>
+            </form>
+        </div>
+        
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
