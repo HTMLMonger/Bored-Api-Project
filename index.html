@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"></head>
-    <body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css"></head>
+        <body>
+
+            <div class="container">
                 <div class="mainTitle">
                     Are You Bored???
                 </div>
@@ -18,14 +19,16 @@
 
     <div class="container">
         <div class="options">
-            <form action="./index.js">
+            <form id="myForm">
             <caption>How many friends?</caption>
             <br>
             <select class="opt" name="numPeople" id="numPeople">
-                <option value="1">One Friend</option>
-                <option value="2">Two Friends</option>
-                <option value="3">Three Friends</option>
-                <option value="4">Four Friends</option>
+                <option value="1">On Your Own</option>
+                <option value="2">One Friends</option>
+                <option value="3">Two Friends</option>
+                <option value="4">Three Friends</option>
+                <option value="5">Four Friends</option>
+
             </select>
             <hr class="rounded">
             <caption>What type of activity would you like to do?</caption>
@@ -44,11 +47,14 @@
             <hr class="rounded">
             <caption>Do you have money to spend?</caption>
             <br>
-                <select name="type" id="type">
+                <select name="money" id="money">
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                 </select>
-                <button onclick="axiosTest()">Click Me</button>
+                <br>
+                <button type="submit";
+" id="but">Click Me</button>
+                <div id="answer"></div> 
             </form>
         </div>
         

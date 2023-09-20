@@ -36,7 +36,8 @@ button{
     font-size: 30px;
     flex-grow: 2;
     border-radius: 15px;
-    margin-top:50px;
+    margin-top:3vh;
+    margin-bottom: 5vh;
 }
 .container > .options > form{
     background-color: rgb(155, 200, 155);
@@ -86,5 +87,9 @@ p{
         margin-bottom: 10px;
         
     }
-
+    button{
+        min-height: 35px; 
+        margin-top: 2vh;
+        margin-bottom: 2vh;  
+    }
   }
