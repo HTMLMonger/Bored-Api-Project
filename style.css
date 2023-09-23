@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content:center;
     max-height: 100vh;
+    
    
 }
 .container > .mainTitle{
@@ -17,6 +18,8 @@
     font-size: 30px;
     flex-grow: 2;
     border-radius: 15px;
+    border-style:double
+
 }   
 .container > .options{
     width: 50vw;
@@ -26,6 +29,7 @@
     line-height: 50px;
     font-size: 25px;
     flex-grow: 2;
+    border-radius:15px;
 }
 button{
     background-color: rgb(155, 200, 155);
@@ -33,15 +37,17 @@ button{
     max-width: 75vw;
     height: 7.5vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     flex-grow: 2;
     border-radius: 15px;
-    margin-top:3vh;
-    margin-bottom: 5vh;
+    margin-top:6vh;
+    margin-bottom: 2vh;
 }
 .container > .options > form{
     background-color: rgb(155, 200, 155);
     border-radius: 15px;
+    border-style:double
+
     
 }
 hr.rounded {
@@ -58,25 +64,67 @@ p{
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom:10px;
+    border-style:double
+
 }
 .break {
     flex-basis: 100%;
     height: 0;
   }
+#type{
+  padding: 8px 16px;
+  margin-top: 6vh;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+  #answer,#answer2,#answer3{
+    background-color: rgb(155, 200, 155);
+    text-align: center;
+    max-width: 75vw;
+    font-size:20;
+    flex-grow: 2;
+    border-radius: 15px;
+    padding-top: 3vh;
+    padding-bottom:3vh;
+    
+  }
 @media only screen and (max-width: 600px) {
-
+    .container > .mainTitle{
+        max-width: 95vw;
+    }
+    .container > .mainTitle{
+        background-color: rgb(155, 200, 155);
+        width: 95vw;
+        max-width: 95vw;
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        flex-grow: 2;
+        border-radius: 15px;
+        border-style:double
+    
+    }   
+    .container > .options{
+        width: 95vw;
+        max-width: 95vw;
+        height:55vh;
+        text-align: center;
+        line-height: 50px;
+        font-size: 25px;
+        border-radius:15px;
+    }
     .header > .mainTitle{
         
-            width: 50vw;
+            width: 95vw;
             max-width: 100vw;
             text-align: center;
             line-height: 75px;
             font-size: 30px;
             flex-grow: 2;
     }
-    .container{
-        
-    }
+    
     .container > .options{
         height: 50vh;
     }
@@ -88,8 +136,36 @@ p{
         
     }
     button{
-        min-height: 35px; 
-        margin-top: 2vh;
-        margin-bottom: 2vh;  
+        min-height: 5vh; 
+        margin-top: 5vh;
+        margin-bottom: 5vh;  
+        
+
+    }
+    #type{
+        font-size: .75rem;
+        margin-top: 3vh;
+    }
+    #answer,#answer2,#answer3{
+        background-color: rgb(155, 200, 155);
+        text-align: center;
+        max-width: 95vw;
+        font-size:20;
+        border-radius: 15px;
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        
+      }
+      p{
+        background-color: rgb(155, 200, 155);
+        text-align: center;
+        max-width: 95vw;
+        font-size:20;
+        flex-grow: 2;
+        border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        border-style:double
+    
     }
   }

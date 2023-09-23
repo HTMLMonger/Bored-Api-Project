@@ -13,24 +13,14 @@
                 </div>
                 <div class="break"></div>
                 <p>
-                    This site uses the BoredAPI to give you suggestions on what to do with your time.
+                    This site uses the BoredAPI to give you suggestions on what to do with your time and how much it should cost.
                 </p>
     </div>
 
     <div class="container">
         <div class="options">
-            <form id="myForm">
-            <caption>How many friends?</caption>
-            <br>
-            <select class="opt" name="numPeople" id="numPeople">
-                <option value="1">On Your Own</option>
-                <option value="2">One Friends</option>
-                <option value="3">Two Friends</option>
-                <option value="4">Three Friends</option>
-                <option value="5">Four Friends</option>
-
-            </select>
-            <hr class="rounded">
+            <form id="myForm" method="post" action="/index.js">
+            
             <caption>What type of activity would you like to do?</caption>
             <br>
             <select name="type" id="type">
@@ -44,17 +34,14 @@
                 <option value="music">Music</option>
                 <option value="busywork">Busy Work</option>
             </select>
-            <hr class="rounded">
-            <caption>Do you have money to spend?</caption>
-            <br>
-                <select name="money" id="money">
-                    <option value="1">Yes</option>
-                    <option value="0">No</option>
-                </select>
+            
                 <br>
                 <button type="submit";
-" id="but">Click Me</button>
-                <div id="answer"></div> 
+" id="but">Generate Activity</button>
+                <div id="answer"></div>
+                <div id="answer2"></div>
+                <div id="answer3"></div> 
+ 
             </form>
         </div>
         
