@@ -9,6 +9,7 @@
     
    
 }
+
 .container > .mainTitle{
     background-color: rgb(155, 200, 155);
     width: 50vw;
@@ -18,7 +19,8 @@
     font-size: 30px;
     flex-grow: 2;
     border-radius: 15px;
-    border-style:double
+    border-style:double;
+    border-color: grey;
 
 }   
 .container > .options{
@@ -42,11 +44,36 @@ button{
     border-radius: 15px;
     margin-top:6vh;
     margin-bottom: 2vh;
+    outline: 1px solid grey;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 2px;
 }
+button:hover{
+    border: 2px solid grey;
+}
+button:active{
+    border:3px solid grey;
+}
+select{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    outline: 1px solid grey;
+}
+select:hover{
+    color:  rgb(98, 0, 98);
+}
+
+
+
 .container > .options > form{
     background-color: rgb(155, 200, 155);
     border-radius: 15px;
-    border-style:double
+    border-style:double;
+    border-color:grey;
 
     
 }
@@ -64,7 +91,8 @@ p{
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom:10px;
-    border-style:double
+    border-style:double;
+    border-color:grey;
 
 }
 .break {
@@ -75,7 +103,7 @@ p{
   padding: 8px 16px;
   margin-top: 6vh;
   border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  border-color: transparent transparent grey transparent;
   cursor: pointer;
   font-size: 1.25rem;
 }
@@ -90,6 +118,7 @@ p{
     padding-bottom:3vh;
     
   }
+  
 @media only screen and (max-width: 600px) {
     .container > .mainTitle{
         max-width: 95vw;
@@ -138,12 +167,12 @@ p{
     button{
         min-height: 5vh; 
         margin-top: 5vh;
-        margin-bottom: 5vh;  
-        
-
+        margin-bottom: 5vh; 
+        width: 70%; 
     }
+   
     #type{
-        font-size: .75rem;
+        font-size: 1.25rem;
         margin-top: 3vh;
     }
     #answer,#answer2,#answer3{
@@ -156,7 +185,7 @@ p{
         padding-bottom:2vh;
         
       }
-      p{
+    p{
         background-color: rgb(155, 200, 155);
         text-align: center;
         max-width: 95vw;
@@ -168,4 +197,6 @@ p{
         border-style:double
     
     }
+    
+    
   }
