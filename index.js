@@ -49,7 +49,7 @@ function addDom(info,info2,info3) {
 
 
 function boredFetch( type) {
-    const apiUrl = `http://www.boredapi.com/api/activity?type=${type}`
+    const apiUrl = `https://www.boredapi.com/api/activity?type=${type}`
     
 
     fetch(apiUrl)
