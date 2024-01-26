@@ -1,2 +1,2 @@
 # Bored-Api-Project
-Use the bored api to suggest experiences and give the price and number of participants that activity would take to complete
+Use the bored api to suggest experiences, give the price and number of participants that activity would take to complete.

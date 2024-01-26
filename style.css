@@ -26,7 +26,7 @@
 .container > .options{
     width: 50vw;
     max-width: 75vw;
-    height:55vh;
+    height:80vh;
     text-align: center;
     line-height: 50px;
     font-size: 25px;
@@ -74,6 +74,7 @@ select:hover{
     border-radius: 15px;
     border-style:double;
     border-color:grey;
+    height:75vh;
 
     
 }
