@@ -1,5 +1,5 @@
 *{
-    background-color: cadetblue;
+    background-color: #7393B3;
 }
 .container{
     display: flex;
@@ -11,7 +11,7 @@
 }
 
 .container > .mainTitle{
-    background-color: rgb(155, 200, 155);
+    background-color: #E5E4E2;
     width: 50vw;
     max-width: 75vw;
     text-align: center;
@@ -34,7 +34,7 @@
     border-radius:15px;
 }
 button{
-    background-color: rgb(155, 200, 155);
+    background-color: #E5E4E2;
     width: 50vw;
     max-width: 75vw;
     height: 7.5vh;
@@ -70,7 +70,7 @@ select:hover{
 
 
 .container > .options > form{
-    background-color: rgb(155, 200, 155);
+    background-color:#E5E4E2;
     border-radius: 15px;
     border-style:double;
     border-color:grey;
@@ -84,7 +84,7 @@ hr.rounded {
   }
 
 p{
-    background-color: rgb(155, 200, 155);
+    background-color: #E5E4E2;
     text-align: center;
     max-width: 75vw;
     font-size:20;
@@ -109,7 +109,7 @@ p{
   font-size: 1.25rem;
 }
   #answer,#answer2,#answer3{
-    background-color: rgb(155, 200, 155);
+    background-color:#E5E4E2;
     text-align: center;
     max-width: 75vw;
     font-size:20;
@@ -125,7 +125,7 @@ p{
         max-width: 95vw;
     }
     .container > .mainTitle{
-        background-color: rgb(155, 200, 155);
+        background-color:#E5E4E2;
         width: 95vw;
         max-width: 95vw;
         text-align: center;
@@ -177,7 +177,7 @@ p{
         margin-top: 3vh;
     }
     #answer,#answer2,#answer3{
-        background-color: rgb(155, 200, 155);
+        background-color: #E5E4E2;
         text-align: center;
         max-width: 95vw;
         font-size:20;
@@ -187,7 +187,7 @@ p{
         
       }
     p{
-        background-color: rgb(155, 200, 155);
+        background-color: #E5E4E2;
         text-align: center;
         max-width: 95vw;
         font-size:20;
